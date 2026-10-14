@@ -4,8 +4,8 @@ A full stack task management app where users can create tasks, assign them to te
 
 ## Live Demo
 
-- **Frontend:** https://your-app.vercel.app _(update after deploying)_
-- **Backend:** https://your-api.onrender.com _(update after deploying)_
+- **Frontend:** https://task-manager-iota-liard.vercel.app
+- **Backend:** https://task-manager-3k1i.onrender.com
 
 > Note: Backend is on Render free plan so the first request can take ~30-50 seconds to wake up.
 
@@ -100,8 +100,8 @@ assignment/
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/Himanshu552003/task-manager.git
+cd task-manager
 ```
 
 ### 2. Backend
@@ -318,7 +318,7 @@ Import `TaskFlow.postman_collection.json` in Postman. Run **Login** first, it sa
 **Frontend (Vercel)**
 1. Import repo → Root directory: `client`
 2. Framework: Vite
-3. Add env variable `VITE_API_URL=https://your-api.onrender.com/api`
+3. Add env variable `VITE_API_URL=https://task-manager-3k1i.onrender.com/api`
 4. `vercel.json` is added to handle page refresh on routes
 
 **MongoDB Atlas**
